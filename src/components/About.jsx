@@ -1,11 +1,11 @@
 import React from "react";
 
-function Portfolio() {
+function About() {
     return (
         <div>
-            
+            <p>About</p>
         </div>
     )
 }
 
-export default Portfolio;
+export default About
