@@ -1,4 +1,3 @@
-import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -11,10 +10,10 @@ import Resume from './components/Resume'
 
 function App (){
     return (
-        <div>
+        <div className=''>
             <Header/>
-            <Navbar />
-            <Home />
+            <Navbar/>
+            <Home/>
             <About/>
             <Portfolio/>
             <Resume/>
