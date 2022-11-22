@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
     return (
-        <div className="bg-zinc-800 ">
+        <div className="bg-zinc-800">
             
         </div>
     )

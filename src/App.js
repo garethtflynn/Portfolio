@@ -19,6 +19,7 @@ function App (){
             <Resume/>
             <Contact/>
             <Footer/>
+            {/* <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script> */}
         </div>
     )
 }
