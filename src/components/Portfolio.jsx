@@ -9,7 +9,7 @@ import Schedule from "../assets/workdaySched.png"
 
 function Portfolio() {
   return (
-    <div className="flex flex-wrap justify-around gap-8 bg-zinc-700 w-full h-screen">
+    <div className="flex flex-wrap justify-around gap-8 bg-zinc-700 w-full h-screen ">
       <div className="max-w-sm">
         <Card
           imgAlt="Lyfbro-app"
@@ -24,6 +24,7 @@ function Portfolio() {
           <p className="font-normal text-gray-700 dark:text-gray-400">
           Lyfbro is a web application aimed at helping a user track activities to monitor health progress. The app provides a "gamified" way to inspire a healthy lifestyle.
           </p>
+          <a href="https://github.com/garethtflynn/Lyfbro" target="blank" className="hover:opacity-75 font-bold">GitHub Repo</a>
         </Card>
       </div>
       <div className="max-w-sm">
@@ -40,6 +41,7 @@ function Portfolio() {
           <p className="font-normal text-gray-700 dark:text-gray-400 ">
           Lets users create a secure password based on their preferences for what they might need.
           </p>
+          <a href="https://github.com/garethtflynn/PassWordGenerator" target="blank" className="hover:opacity-75 font-bold">GitHub Repo</a>
         </Card>
       </div>
       <div className="max-w-sm">
@@ -56,6 +58,7 @@ function Portfolio() {
           <p className="font-normal text-gray-700 dark:text-gray-400">
           Allows users to write and takes notes for organizational purposes.
           </p>
+          <a href="https://github.com/garethtflynn/NoteTaker" target="blank" className="hover:opacity-75 font-bold">GitHub Repo</a>
         </Card>
       </div>
       <div className="max-w-sm">
@@ -72,6 +75,7 @@ function Portfolio() {
           <p className="font-normal text-gray-700 dark:text-gray-400">
           WorkDaySchedule gives the user the ability to set and save their daily schedule during work hours.
           </p>
+          <a href="https://github.com/garethtflynn/WorkDaySchedule" target="blank" className="hover:opacity-75 font-bold">GitHub Repo</a>
         </Card>
       </div>
       <div className="max-w-sm">
@@ -88,6 +92,7 @@ function Portfolio() {
           <p className="font-normal text-gray-700 dark:text-gray-400">
           Fives the user the ability to see the weather for a specific city in current and five day format.
           </p>
+          <a href="https://github.com/garethtflynn/WeatherDashboard" target="blank" className="hover:opacity-75 font-bold">GitHub Repo</a>
         </Card>
       </div>
       <div className="max-w-sm">
@@ -102,8 +107,9 @@ function Portfolio() {
             Music Pilot
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-          Music Pilot allows the music enthusiast to retrieve music videos, a list of tracks and song lyrics, from their favorite artist with a simple search.
+          Music Pilot allows the music enthusiast to retrieve music videos, a list of tracks and song lyrics, from their favorite artists.
           </p>
+          <a href="https://github.com/garethtflynn/MusicPilot" target="blank" className="hover:opacity-75 font-bold">GitHub Repo</a>
         </Card>
       </div>
     </div>
