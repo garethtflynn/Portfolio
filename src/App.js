@@ -1,24 +1,31 @@
-import About from './components/About'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Navbar from './components/Navbar'
-import Portfolio from './components/Portfolio'
-import Resume from './components/Resume'
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+// import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-
-function App (){
-    return (
-        <div className=''>
-            <Header/>
-            <Navbar/>
-            <About/>
-            <Portfolio/>
-            <Resume/>
-            <Contact/>
-            <Footer/>
+function App() {
+  return (
+    <div className="">
+      <Router>
+        <div>
+          <Navbar />
+          <div>
+            <Routes>
+              <Route path="/" element={<About />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </div>
+          <Footer />
         </div>
-    )
+      </Router>
+    </div>
+  );
 }
 
 export default App;

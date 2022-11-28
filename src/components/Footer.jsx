@@ -3,7 +3,7 @@ import {FaGithub, FaLinkedin, FaStackOverflow} from "react-icons/fa"
 
 function Footer() {
     return (
-        <footer className="bg-zinc-800">
+        <footer className="bg-zinc-700 w-full sticky">
             <ul className='flex justify-center align-center gap-10'>
                 <li>
                 <a href="https://github.com/garethtflynn" target="_blank" rel="noopener noreferrer"><FaGithub size='2rem' className=''/></a>

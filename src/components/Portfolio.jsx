@@ -9,8 +9,8 @@ import Schedule from "../assets/workdaySched.png"
 
 function Portfolio() {
   return (
-    <div className="flex flex-wrap justify-around gap-8 bg-zinc-800 ">
-      <div className="max-w-sm bg-zinc-800 ">
+    <div className="flex flex-wrap justify-around gap-8 bg-zinc-700 w-full h-screen">
+      <div className="max-w-sm">
         <Card
           imgAlt="Lyfbro-app"
           imgSrc= {Lyfbro}
@@ -26,7 +26,7 @@ function Portfolio() {
           </p>
         </Card>
       </div>
-      <div className="max-w-sm ">
+      <div className="max-w-sm">
         <Card
           imgAlt="password-generator-app"
           imgSrc= {Pswd}
