@@ -9,7 +9,7 @@ import Schedule from "../assets/workdaySched.png"
 
 function Portfolio() {
   return (
-    <div className="flex flex-wrap justify-around gap-8 bg-zinc-700 w-full h-screen ">
+    <div className="flex flex-wrap justify-around gap-8 bg-zinc-700 w-full h-screen">
       <div className="max-w-sm">
         <Card
           imgAlt="Lyfbro-app"
