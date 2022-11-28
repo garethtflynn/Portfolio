@@ -11,7 +11,7 @@ function Resume() {
           target="blank"
           color="dark"
           type="submit"
-          className="w-1/6"
+          className="w-1/6 mt-5"
         >
           Download Resume
         </Button>
