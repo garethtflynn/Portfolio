@@ -60,7 +60,7 @@ function Contact() {
             onChange={handleInput}
           />
         </div>
-        <div>
+        <div className="text-slate-50 mt-1">
         <p>{userErrMessage}</p>
         </div>
         <div>
@@ -75,7 +75,7 @@ function Contact() {
             onChange={handleInput}
           />
         </div>
-        <div className="text-slate-50">
+        <div className="text-slate-50 mt-1">
          <p>{emailErrMessage}</p>
         </div>
         <div>
@@ -90,10 +90,10 @@ function Contact() {
             onChange={handleInput}
           />
         </div>
-        <div>
+        <div className="text-slate-50">
           <p>{errorMessage}</p>
         </div>
-        <div className="text-slate-50">
+        <div className="text-slate-50 mt-1">
           <p>{successMessage}</p>
         </div>
         <div className="mt-3">
