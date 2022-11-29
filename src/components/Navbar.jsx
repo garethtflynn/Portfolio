@@ -19,9 +19,9 @@ function Navagation() {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Navbar.Link  className="hover:opacity-50 text-slate-50	"><Link to="/">About Me</Link></Navbar.Link>
-          <Navbar.Link  className="hover:opacity-50 text-slate-50"><Link to="/Portfolio-page">Portfolio</Link></Navbar.Link>
-          <Navbar.Link  className="hover:opacity-50 text-slate-50	"><Link to="/Resume">Resume</Link></Navbar.Link>
-          <Navbar.Link  className="hover:opacity-50 text-slate-50	"><Link to="/Contact">Contact</Link></Navbar.Link>
+          <Navbar.Link  className="hover:opacity-50 text-slate-50"><Link to="/portfolio-page">Portfolio</Link></Navbar.Link>
+          <Navbar.Link  className="hover:opacity-50 text-slate-50	"><Link to="/resume">Resume</Link></Navbar.Link>
+          <Navbar.Link  className="hover:opacity-50 text-slate-50	"><Link to="/contact">Contact</Link></Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>
