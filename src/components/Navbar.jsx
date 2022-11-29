@@ -6,9 +6,9 @@ import {Link} from "react-router-dom"
 
 function Navagation() {
   return (
-    <div className="">
+    <div>
       <Navbar fluid={true} rounded={false} className="bg-zinc-700">
-        <Navbar.Brand className="">
+        <Navbar.Brand>
           <Link to="/"><img
             src={logo} 
             className="mr-3 h-6 sm:h-9 "
