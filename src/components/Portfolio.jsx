@@ -6,6 +6,7 @@ import MusicPilot from "../assets/musicPilot.png";
 import WeatherDash from "../assets/weatherDash.png";
 import Note from "../assets/noteTaker.png";
 import Schedule from "../assets/workdaySched.png";
+import Clairese from '../assets/clairese-ceramics.png'
 
 function Portfolio() {
   return (
@@ -147,6 +148,27 @@ function Portfolio() {
             </p>
             <a
               href="https://github.com/garethtflynn/MusicPilot"
+              target="blank"
+              className="hover:opacity-75 hover:italic font-bold"
+            >
+              GitHub Repo
+            </a>
+          </Card>
+          <Card
+            imgAlt="clairese-ceramics"
+            imgSrc={Clairese}
+            href="https://clairese-ceramics.herokuapp.com/"
+            target="_blank"
+            className="bg-neutral-200"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Clairese Ceramics
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              An Ecommerce website for a custom pottery business
+            </p>
+            <a
+              href="https://github.com/garethtflynn/clairese-ceramics"
               target="blank"
               className="hover:opacity-75 hover:italic font-bold"
             >
