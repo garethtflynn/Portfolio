@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { TextInput, Button } from "flowbite-react";
-import { validateEmail } from "../utils/helpers";
+import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
   const [userEmail, setUserEmail] = useState("");
@@ -43,7 +43,7 @@ function Contact() {
     }
   };
   return (
-    <div className="flex flex-col gap-4 bg-zinc-700	w-full h-screen">
+    <div class="flex flex-col gap-4 bg-black	w-full h-screen">
       <div className="ml-5">
         <div className="text-zinc-50 italic mt-5">
           <h1>I would love to hear from you. Please reach out and send me a message!</h1>

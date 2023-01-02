@@ -1,11 +1,11 @@
 import React from "react";
 import { Button } from "flowbite-react";
-import ResumePdf from "../assets/resume.pdf";
+import ResumePdf from "../../assets/resume.pdf";
 
 function Resume() {
   return (
-    <div className="w-full h-screen bg-zinc-700">
-      <div className="bg-zinc-700 flex flex-wrap gap-2 justify-center">
+    <div className="w-full h-screen bg-black">
+      <div className="flex flex-wrap gap-2 justify-center">
         <Button
           href={ResumePdf}
           target="blank"
