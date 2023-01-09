@@ -1,11 +1,12 @@
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-// import Footer from "../pages/";
-// import Navbar from "./pages/Navbar.jsx";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
 import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Footer from "./components/Footer";
+// import Navbar from "./components/Navbar";
+// import AboutComponent from './components/About'
+// import ContactComponent from './components/Contact'
+// import ProjectsComponent from './components/Projects'
+// import SkillsComponent from './components/Skills'
 
 function App() {
   return (
@@ -14,10 +15,7 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/portfolio-page" element={<Portfolio />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/work" element={<Portfolio />} />
           </Routes>
         </div>
       </Router>

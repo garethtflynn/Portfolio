@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import { TextInput, Button } from "flowbite-react";
+import React, { useState, useRef } from "react";
+import { TextInput } from "flowbite-react";
 import { validateEmail } from "../../utils/helpers";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [userEmail, setUserEmail] = useState("");
@@ -8,8 +9,8 @@ function Contact() {
   const [userMessage, setUserMessage] = useState("");
   const successMessage = useState("");
 
-  const [emailErrMessage, setEmailErrMessage] = useState('')
-  const [userErrMessage, setUserErrMessage] = useState('')
+  const [emailErrMessage, setEmailErrMessage] = useState("");
+  const [userErrMessage, setUserErrMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleInput = (e) => {
@@ -42,64 +43,110 @@ function Contact() {
       return;
     }
   };
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_YOUR_SERVICE_ID,
+        process.env.REACT_APP_YOUR_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_YOUR_PUBLIC_KEY
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        (err) => {
+          console.log("FAILED...", err);
+        }
+      );
+    setUserEmail("");
+    setUserName("");
+    setUserMessage("");
+    setEmailErrMessage("");
+    setUserErrMessage("");
+    setErrorMessage("");
+  };
   return (
-    <div class="flex flex-col gap-4 bg-black	w-full h-screen">
-      <div className="ml-5">
-        <div className="text-zinc-50 italic mt-5">
-          <h1>I would love to hear from you. Please reach out and send me a message!</h1>
-        </div>
-        <div>
+    <div name="contact" class="bg-black w-full h-screen p-5">
+      <div class="flex justify-center ">
+        <p class="text-slate-50 text-3xl underline underline-offset-4	">
+          Contact Me
+        </p>
+      </div>
+      <div class="p-3 pt-5 grid grid-cols-2 w-full">
+        <form ref={form} onSubmit={sendEmail}>
           <TextInput
             id="small"
             type="text"
             name="name"
             placeholder="name"
             value={userName}
-            sizing="sm"
-            className="w-1/3 mt-5"
-            onChange={handleInput}
-          />
-        </div>
-        <div className="text-slate-50 mt-1">
-        <p>{userErrMessage}</p>
-        </div>
-        <div>
-          <TextInput
-            id="base"
-            type="email"
-            name="email"
-            placeholder="email"
-            value={userEmail}
             sizing="md"
-            className="slate-900 w-1/2 mt-5"
+            class="w-10/12 mt-5"
             onChange={handleInput}
           />
-        </div>
-        <div className="text-slate-50 mt-1">
-         <p>{emailErrMessage}</p>
-        </div>
-        <div>
-          <TextInput
-            id="large"
-            type="text"
-            sizing="lg"
-            name="message"
-            placeholder="message"
-            value={userMessage}
-            className="w-1/2 mt-5"
-            onChange={handleInput}
-          />
-        </div>
-        <div className="text-slate-50">
-          <p>{errorMessage}</p>
-        </div>
-        <div className="text-slate-50 mt-1">
-          <p>{successMessage}</p>
-        </div>
-        <div className="mt-3">
-          <Button color="dark" type="submit" value="Send" className="mt-5" onClick={handleSubmit}>
-            Submit
-          </Button>
+          <div class="text-slate-50 mt-1">
+            <p>{userErrMessage}</p>
+          </div>
+          <div>
+            <TextInput
+              id="base"
+              type="email"
+              name="email"
+              placeholder="email"
+              value={userEmail}
+              sizing="md"
+              class="w-10/12 mt-5"
+              onChange={handleInput}
+            />
+          </div>
+          <div class="text-slate-50 mt-1">
+            <p>{emailErrMessage}</p>
+          </div>
+          <div>
+            <TextInput
+              id="large"
+              type="text"
+              sizing="lg"
+              name="message"
+              placeholder="message"
+              value={userMessage}
+              class="w-10/12 h-64
+            mt-5"
+              onChange={handleInput}
+            />
+          </div>
+          <div class="text-slate-50">
+            <p>{errorMessage}</p>
+          </div>
+          <div class="text-slate-50 mt-1">
+            <p>{successMessage}</p>
+          </div>
+          <div class="mt-3">
+            <button
+              onClick={handleSubmit}
+              target="blank"
+              type="submit"
+              class="bg-stone-50 hover:opacity-75 text-black font-bold py-2 px-4  items-center"
+            >
+              <span>Get In Touch!</span>
+            </button>
+          </div>
+        </form>
+        <div class="text-slate-50">
+          <br></br>
+          <p>
+            If you have any questions about myself or my projects, please feel
+            free to reach out!
+          </p>
+          <br></br>
+          <br></br>
+          <p>Straight shot to my inbox:</p>
+          <p>gareth.t.flynn@gmail.com</p>
         </div>
       </div>
     </div>
