@@ -34,6 +34,11 @@ function Footer() {
             </a>
           </li>
         </ul>
+        <div class='bg-black flex justify-center pt-1'>
+        <p class=' text-slate-50 text-xs'>
+        © 2022 Gareth Flynn. All rights reserved.
+        </p>
+        </div>
       </footer>
     </div>
   );

@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { TextInput } from "flowbite-react";
 import { validateEmail } from "../../utils/helpers";
 import emailjs from "@emailjs/browser";
+import { Link } from "react-scroll";
 
 function Contact() {
   const [userEmail, setUserEmail] = useState("");
@@ -12,6 +13,8 @@ function Contact() {
   const [emailErrMessage, setEmailErrMessage] = useState("");
   const [userErrMessage, setUserErrMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+
+  const form = useRef();
 
   const handleInput = (e) => {
     const { target } = e;
@@ -28,6 +31,8 @@ function Contact() {
   };
 
   const handleSubmit = (e) => {
+    e.preventDefault();
+
     if (!validateEmail(userEmail)) {
       setEmailErrMessage("Please enter a valid email!");
       return;
@@ -42,11 +47,6 @@ function Contact() {
       setErrorMessage(`Please enter your message!`);
       return;
     }
-  };
-
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
 
     emailjs
       .sendForm(
@@ -70,15 +70,16 @@ function Contact() {
     setUserErrMessage("");
     setErrorMessage("");
   };
+
   return (
-    <div name="contact" class="bg-black w-full h-screen p-5">
+    <div name="contact" class="bg-black w-full h-screen	 p-5">
       <div class="flex justify-center ">
-        <p class="text-slate-50 text-3xl underline underline-offset-4	">
+        <p class="text-slate-50 text-3xl underline underline-offset-4">
           Contact Me
         </p>
       </div>
-      <div class="p-3 pt-5 grid grid-cols-2 w-full">
-        <form ref={form} onSubmit={sendEmail}>
+      <div class="pt-5 grid grid-cols-2 w-full">
+        <form ref={form} onSubmit={handleSubmit}>
           <TextInput
             id="small"
             type="text"
@@ -131,7 +132,7 @@ function Contact() {
               onClick={handleSubmit}
               target="blank"
               type="submit"
-              class="bg-stone-50 hover:opacity-75 text-black font-bold py-2 px-4  items-center"
+              class="bg-stone-50 hover:opacity-75 text-black font-bold py-2 px-4 items-center"
             >
               <span>Get In Touch!</span>
             </button>
@@ -145,9 +146,21 @@ function Contact() {
           </p>
           <br></br>
           <br></br>
-          <p>Straight shot to my inbox:</p>
-          <p>gareth.t.flynn@gmail.com</p>
+          <p>Or if you want a straight shot to my inbox, email me here:</p>
+          <a
+            href="mailto: gareth.t.flynn@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+            class="hover:italic hover:opacity"
+          >
+            gareth.t.flynn@gmail.com
+          </a>
         </div>
+      </div>
+      <div class="bg-black w-full flex justify-center items-center text-slate-50 pt-52">
+        <Link to="greeting" spy={true} smooth={true} duration={500}>
+          Back To Top
+        </Link>
       </div>
     </div>
   );

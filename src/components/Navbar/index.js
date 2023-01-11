@@ -3,13 +3,12 @@ import logo from "../../assets/gflogo.PNG";
 import { Navbar } from "flowbite-react";
 import { Link } from "react-scroll";
 
-
 function Navagation() {
   return (
-    <div>
-      <Navbar fluid={true} rounded={false} class='bg-black'>
+    <div name="navbar" class="fixed w-screen">
+      <Navbar fluid={true} rounded={false} class="bg-black">
         <Navbar.Brand>
-          <a href='/Portfolio'>
+          <a href="/Portfolio">
             <img
               src={logo}
               className="mr-3 h-6 sm:h-9 "
@@ -20,14 +19,42 @@ function Navagation() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
+        <Navbar.Link class="hover:opacity-50 text-slate-50	">
+            <Link
+              to="greeting"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Home
+            </Link>
+          </Navbar.Link>
           <Navbar.Link class="hover:opacity-50 text-slate-50	">
-            <Link to="about" spy={true} smooth={true} duration={500}>About</Link>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-110}
+            >
+              About
+            </Link>
           </Navbar.Link>
           <Navbar.Link class="hover:opacity-50 text-slate-50">
-            <Link to="projects" spy={true} smooth={true} duration={500}>Projects</Link>
+            <Link to="projects" spy={true} smooth={true} duration={500}>
+              Projects
+            </Link>
           </Navbar.Link>
           <Navbar.Link class="hover:opacity-50 text-slate-50 mr-3">
-            <Link to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-120}
+            >
+              Contact
+            </Link>
           </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>

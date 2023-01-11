@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar"
+import Greeting from "../components/Greeting"
 import About from "../components/About"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
@@ -10,6 +11,7 @@ function Portfolio() {
   return (
     <div>
     <Navbar/>
+    <Greeting/>
     <About/>
     <Skills/>
     <Projects/>
