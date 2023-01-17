@@ -2,7 +2,8 @@ import React from "react";
 // import Clairese from " "
 // import Lyfbro from " "
 // import MusicPilot from ""
-// import Weather from ""
+// import WeatherBig from "../../assets/weatherDashboardBig.PNG"
+// import WeatherMobile from "../../assets/weatherDashboardMobile.PNG"
 // import Password from "" 
 
 
@@ -15,9 +16,11 @@ function Projects() {
       </div>
       <div class='grid grid-cols-2'>
         <div>
-          
+          <p>Weather Dashboard</p>
         </div>
-        
+        <div>
+          {/* <img src='' alt='weatherBig'></img> */}
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import ParticlesBackground from "../components/Particles"
 import Navbar from "../components/Navbar"
 import Greeting from "../components/Greeting"
 import About from "../components/About"
@@ -11,6 +12,7 @@ function Portfolio() {
   return (
     <div>
     <Navbar/>
+    <ParticlesBackground/>
     <Greeting/>
     <About/>
     <Skills/>
