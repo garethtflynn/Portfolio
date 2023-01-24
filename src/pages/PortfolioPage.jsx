@@ -4,11 +4,11 @@ import Navbar from "../components/Navbar"
 import Greeting from "../components/Greeting"
 import About from "../components/About"
 import Skills from "../components/Skills"
-import Projects from "../components/Projects"
+import Portfolio from "../components/Portfolio"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer";
 
-function Portfolio() {
+function PortfolioPage() {
   return (
     <div>
     <Navbar/>
@@ -16,11 +16,11 @@ function Portfolio() {
     <Greeting/>
     <About/>
     <Skills/>
-    <Projects/>
+    <Portfolio/>
     <Contact/>
     <Footer/>
     </div>
   );
 }
 
-export default Portfolio;
+export default PortfolioPage;

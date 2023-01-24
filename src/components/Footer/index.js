@@ -12,7 +12,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaGithub size="2rem" color="white" />
+              <FaGithub size="2rem" color="white" class='hover:scale-125 duration-150	' />
             </a>
           </li>
           <li>
@@ -21,7 +21,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin size="2rem" color="white" />
+              <FaLinkedin size="2rem" color="white" class='hover:scale-125 duration-150' />
             </a>
           </li>
           <li>
@@ -30,7 +30,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaStackOverflow size="2rem" color="white" />
+              <FaStackOverflow size="2rem" color="white" class='hover:scale-125 duration-150'/>
             </a>
           </li>
         </ul>

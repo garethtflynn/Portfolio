@@ -8,7 +8,7 @@ function Greeting() {
             <p class='text-7xl'>Gareth Flynn</p>
             <br></br>
         </div>
-        <div class='w-10/12'>
+        <div class='w-9/12'>
             <p class='text-lg'>Im a Full Stack Web Developer and recent Georgia Tech Bootcamp grad. Creative thinker with a desire to learn and build amazing web experiences. Currently looking for opportunities in a developer role.</p>
             </div>
       </div>

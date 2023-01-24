@@ -132,7 +132,7 @@ function Contact() {
               onClick={handleSubmit}
               target="blank"
               type="submit"
-              class="bg-stone-50 hover:opacity-75 text-black font-bold py-2 px-4 items-center"
+              class="hover:scale-105 duration-150 bg-stone-50 hover:opacity-75 text-black font-bold py-2 px-4 items-center"
             >
               <span>Get In Touch!</span>
             </button>
@@ -158,7 +158,7 @@ function Contact() {
         </div>
       </div>
       <div class="bg-black w-full flex justify-center items-center text-slate-50 pt-52">
-        <Link to="greeting" spy={true} smooth={true} duration={500}>
+        <Link to="greeting" spy={true} smooth={true} duration={500} class='cursor-pointer'>
           Back To Top
         </Link>
       </div>

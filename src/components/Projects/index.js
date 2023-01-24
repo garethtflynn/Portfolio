@@ -1,29 +1,45 @@
 import React from "react";
-// import Clairese from " "
-// import Lyfbro from " "
-// import MusicPilot from ""
-// import WeatherBig from "../../assets/weatherDashboardBig.PNG"
-// import WeatherMobile from "../../assets/weatherDashboardMobile.PNG"
-// import Password from "" 
 
-
-
-function Projects() {
+const Projects = ({ props }) => {
   return (
-    <div name='projects' class="bg-black w-full h-screen pt-20 text-slate-50 underline underline-offset-4 text-3xl">
-      <div class='flex justify-center'>
-        <p class='text-slate-50 underline underline-offset-4 text-3xl'>Projects</p>
-      </div>
-      <div class='grid grid-cols-2'>
-        <div>
-          <p>Weather Dashboard</p>
-        </div>
-        <div>
-          {/* <img src='' alt='weatherBig'></img> */}
-        </div>
-      </div>
+    <div class="text-slate-50">
+      {props.map((project, id) => {
+        return (
+          <div class='grid sm:grid-cols-1 md:grid-cols-2'>
+            <div key={id} class="group container mx-auto content-div">
+              <div className="flex flex-col">
+                <span className="text-2xl font-bold tracking-wider ">
+                  {project.name}
+                </span>
+                <p className="text-sm p-2">{project.description}</p>
+                <div className="flex py-1 gap-2">
+                  {project.icons.map((icon, index) => (
+                    <span>{icon}</span>
+                  ))}
+                </div>
+                <div class='flex'>
+                <a href={project.github} target="_blank" rel="noreferrer">
+                      <p class="px-2 py-1 m-2 font-bold text-lg hover:underline hover:underline-offset-4 hover:scale-105 decoration-2">
+                        Code
+                      </p>
+                    </a>
+                    <p class='px-2 py-1 m-2 font-bold text-lg'>/</p>
+                    <a href={project.url} target="_blank" rel="noreferrer">
+                      <p className="px-2 py-1 m-2 font-bold text-lg hover:scale-105 hover:underline hover:underline-offset-4 decoration-2">
+                        Live
+                      </p>
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class='flex justify-center sm:p-5'>
+              <img src={project.image} width="300" alt={project.alt}></img>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
-}
+};
 
 export default Projects;

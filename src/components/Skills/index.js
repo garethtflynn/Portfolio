@@ -76,7 +76,7 @@ function Skills() {
           href={ResumePdf}
           target="blank"
           type="submit"
-          class="bg-stone-50 hover:opacity-75 text-black font-bold py-2 px-4 items-center"
+          class="bg-stone-50 hover:opacity-75 text-black font-bold py-2 px-4 items-center hover:scale-105 duration-150"
         >
           <a href={ResumePdf} download="garethFlynnResume.pdf">
             <span>Download Resume</span>

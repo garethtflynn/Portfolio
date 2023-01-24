@@ -17,7 +17,7 @@ const particleConfig = {
       type: "circle"
     },
     opacity: {
-      value: 0.5,
+      value: 0,
       random: true,
       anim: {
         enable: false,
@@ -60,7 +60,7 @@ const particleConfig = {
   interactivity: {
     events: {
       onhover: {
-        enable: true,
+        enable: false,
         mode: "bubble"
       },
       onclick: {

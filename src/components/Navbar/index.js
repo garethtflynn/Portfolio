@@ -11,7 +11,7 @@ function Navagation() {
           <a href="/Portfolio">
             <img
               src={logo}
-              className="mr-3 h-6 sm:h-9 "
+              className="mr-3 h-6 sm:h-9 cursor-pointer"
               alt="gareth-flynn-logo"
               style={{ width: "80px", height: "80px" }}
             />
@@ -19,12 +19,13 @@ function Navagation() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-        <Navbar.Link class="hover:opacity-50 text-slate-50	">
+          <Navbar.Link class="hover:opacity-50 text-slate-50	">
             <Link
               to="greeting"
               spy={true}
               smooth={true}
               duration={500}
+              class="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
             >
               Home
             </Link>
@@ -36,12 +37,19 @@ function Navagation() {
               smooth={true}
               duration={500}
               offset={-110}
+              class="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
             >
               About
             </Link>
           </Navbar.Link>
           <Navbar.Link class="hover:opacity-50 text-slate-50">
-            <Link to="projects" spy={true} smooth={true} duration={500}>
+            <Link
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              duration={500}
+              class="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
+            >
               Projects
             </Link>
           </Navbar.Link>
@@ -52,6 +60,7 @@ function Navagation() {
               smooth={true}
               duration={500}
               offset={-120}
+              class="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
             >
               Contact
             </Link>
