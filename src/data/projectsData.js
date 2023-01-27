@@ -27,6 +27,16 @@ export const projectsData = [
         description: "Do you check the weather constantly? This mobile-first designed apllication allows users to search cities and destinations' weather in current and five day format."
     },
     {
+        id: 1,
+        name: 'Lyfbro',
+        image: lyfbro,
+        url: 'https://lyfbrohealth.herokuapp.com/',
+        github: 'https://github.com/garethtflynn/Lyfbro-App',
+        alt: 'lyfbro-app',
+        icons: [<SiTailwindcss size='3rem'/>, <DiMysql size='3rem'/>, <DiNodejs size='3rem'/>, <FaJs size='3rem'/>, <FaHtml5 size='3rem'/>, <SiHandlebarsdotjs size='3rem'/>,],
+        description: 'Lyfbro is a web application aimed at helping a user track activities to monitor health progress. The app provides a "gamified" way to inspire a healthy lifestyle. This repository is a mirror of'
+    },
+    {
         id: 6,
         name: 'Coding Quiz',
         image: quiz ,
@@ -50,22 +60,12 @@ export const projectsData = [
         id: 2,
         name: 'Clairese Ceramics',
         image: clairese,
-        url: 'https://shopclaireseceramics.herokuapp.com/',
-        github: 'https://github.com/garethtflynn/claireseCeramics',
+        url: 'https://claireseceramics.herokuapp.com/',
+        github: 'https://github.com/garethtflynn/shopClaireseCeramics',
         alt: 'clairese-ceramics',
         icons: [<FaReact size='3rem'/>, <SiTailwindcss size='3rem'/>, <GrGraphQl size='3rem'/>, <FaJs size='3rem'/>],
         description: 'Clairese Ceramics is an e-commerce site designed to showcase and sell the pottery created by ceramic artist, Ashlynn Claire. Customers are welcome to browse, shop, and learn about the story behind the company.' 
     }, 
-    {
-        id: 1,
-        name: 'Lyfbro',
-        image: lyfbro,
-        url: 'https://lyfbrohealth.herokuapp.com/',
-        github: 'https://github.com/garethtflynn/Lyfbro-App',
-        alt: 'lyfbro-app',
-        icons: [<SiTailwindcss size='3rem'/>, <DiMysql size='3rem'/>, <DiNodejs size='3rem'/>, <FaJs size='3rem'/>, <FaHtml5 size='3rem'/>, <SiHandlebarsdotjs size='3rem'/>,],
-        description: 'Lyfbro is a web application aimed at helping a user track activities to monitor health progress. The app provides a "gamified" way to inspire a healthy lifestyle. This repository is a mirror of'
-    },
     {
         id: 4,
         name: 'Password Generator',
