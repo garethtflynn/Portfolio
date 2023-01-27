@@ -2,17 +2,17 @@ import React from "react";
 
 const Projects = ({ props }) => {
   return (
-    <div class="text-slate-50">
+    <div class="text-amber-50">
       {props.map((project, id) => {
         return (
-          <div class='grid sm:grid-cols-1 md:grid-cols-2'>
+          <div class='grid sm:grid-cols-1 md:grid-cols-2 pb-32'>
             <div key={id} class="group container mx-auto content-div">
               <div className="flex flex-col">
-                <span className="text-2xl font-bold tracking-wider ">
+                <span className="text-2xl font-bold tracking-wider">
                   {project.name}
                 </span>
-                <p className="text-sm p-2">{project.description}</p>
-                <div className="flex py-1 gap-2">
+                <p className="text-sm pt-6">{project.description}</p>
+                <div className="flex py-8 gap-2">
                   {project.icons.map((icon, index) => (
                     <span>{icon}</span>
                   ))}
@@ -33,7 +33,7 @@ const Projects = ({ props }) => {
               </div>
             </div>
             <div class='flex justify-center sm:p-5'>
-              <img src={project.image} width="300" alt={project.alt}></img>
+              <img src={project.image} width="350" alt={project.alt}></img>
             </div>
           </div>
         );

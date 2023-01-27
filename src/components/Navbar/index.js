@@ -11,7 +11,7 @@ function Navagation() {
           <a href="/Portfolio">
             <img
               src={logo}
-              className="mr-3 h-6 sm:h-9 cursor-pointer"
+              className="cursor-pointer"
               alt="gareth-flynn-logo"
               style={{ width: "80px", height: "80px" }}
             />
@@ -19,52 +19,63 @@ function Navagation() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link class="hover:opacity-50 text-slate-50	">
+        <ul class='flex flex-col items-end sm:pr-6 md:flex-row md:pr-6 md:gap-10 text-lg'>
+         <li class='pl-6'>
+          <Navbar.Link class="hover:opacity-50 text-amber-50">
             <Link
               to="greeting"
               spy={true}
               smooth={true}
               duration={500}
-              class="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
+              className="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
             >
               Home
             </Link>
           </Navbar.Link>
-          <Navbar.Link class="hover:opacity-50 text-slate-50	">
+          </li>
+          <li class=''>  
+          <Navbar.Link class="hover:opacity-50 text-amber-50">
             <Link
               to="about"
               spy={true}
               smooth={true}
               duration={500}
               offset={-110}
-              class="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
+              className="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
             >
               About
             </Link>
           </Navbar.Link>
-          <Navbar.Link class="hover:opacity-50 text-slate-50">
+          </li>
+          <li class=''>
+          <Navbar.Link class="hover:opacity-50 text-amber-50">
             <Link
               to="portfolio"
               spy={true}
               smooth={true}
               duration={500}
-              class="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
+              offset={-50}
+              className="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
             >
               Projects
             </Link>
           </Navbar.Link>
-          <Navbar.Link class="hover:opacity-50 text-slate-50 mr-3">
+          </li>
+          <li class=''>
+          <Navbar.Link class="hover:opacity-50 text-amber-50">
             <Link
               to="contact"
               spy={true}
               smooth={true}
               duration={500}
               offset={-120}
-              class="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
+              className="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
             >
               Contact
             </Link>
           </Navbar.Link>
+          </li>
+          </ul>
         </Navbar.Collapse>
       </Navbar>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaStackOverflow, FaInstagramSquare } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -33,9 +33,18 @@ function Footer() {
               <FaStackOverflow size="2rem" color="white" class='hover:scale-125 duration-150'/>
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.instagram.com/garethtflynn/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagramSquare size="2rem" color="white" class='hover:scale-125 duration-150'/>
+            </a>
+          </li>
         </ul>
-        <div class='bg-black flex justify-center pt-1'>
-        <p class=' text-slate-50 text-xs'>
+        <div class='bg-black flex justify-center py-3'>
+        <p class=' text-amber-50 text-xs'>
         © 2022 Gareth Flynn. All rights reserved.
         </p>
         </div>

@@ -5,3 +5,8 @@
 @layer base {
   
 }
+
+body{
+    font-style: italic;
+    font-weight: bold;
+}

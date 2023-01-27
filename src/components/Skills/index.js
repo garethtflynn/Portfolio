@@ -13,13 +13,13 @@ import ResumePdf from "../../assets/resume.pdf";
 
 function Skills() {
   return (
-    <div class='bg-black w-full h-fit'>
-      <div class="flex justify-center ">
-        <p class="text-slate-50 underline underline-offset-4 text-3xl">
+    <div class='bg-black w-full h-fit '>
+      <div class="flex justify-center pb-12">
+        <p class="text-amber-50 underline underline-offset-4 text-3xl">
           Skills
         </p>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-y-20 p-12 text-slate-50 w-full text-center">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-y-20 p-12 text-amber-50 w-full text-center">
         <div>
           <FaHtml5 size="4rem"></FaHtml5>
           <p>HTML5</p>
@@ -76,7 +76,7 @@ function Skills() {
           href={ResumePdf}
           target="blank"
           type="submit"
-          class="bg-stone-50 hover:opacity-75 text-black font-bold py-2 px-4 items-center hover:scale-105 duration-150"
+          class="bg-amber-50 hover:opacity-75 text-black font-bold py-2 px-4 items-center hover:scale-105 duration-150"
         >
           <a href={ResumePdf} download="garethFlynnResume.pdf">
             <span>Download Resume</span>
