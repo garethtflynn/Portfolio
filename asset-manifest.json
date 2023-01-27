@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3f38ca15.css",
-    "main.js": "/Portfolio/static/js/main.79d33e87.js",
-    "static/media/clairese-ceramics.png": "/Portfolio/static/media/clairese-ceramics.71284f726bb79ea1f6de.png",
-    "static/media/musicPilot.png": "/Portfolio/static/media/musicPilot.783c2d9a93f7f66f6b9d.png",
-    "static/media/weatherDash.png": "/Portfolio/static/media/weatherDash.67371b5e68560c037c25.png",
-    "static/media/workdaySched.png": "/Portfolio/static/media/workdaySched.7a65787481643b58295f.png",
+    "main.css": "/Portfolio/static/css/main.9595e15c.css",
+    "main.js": "/Portfolio/static/js/main.2378ca71.js",
+    "static/media/clairCeramics.png": "/Portfolio/static/media/clairCeramics.fd54800fe5ebdad8f0b2.png",
+    "static/media/headshotSmall.jpg": "/Portfolio/static/media/headshotSmall.1502e3adadef491a0830.jpg",
+    "static/media/socialNetworkAPI.png": "/Portfolio/static/media/socialNetworkAPI.17c0256149212ab8c638.png",
+    "static/media/weatherDash.png": "/Portfolio/static/media/weatherDash.752715f4388662d577d3.png",
+    "static/media/lyfbroApp.PNG": "/Portfolio/static/media/lyfbroApp.af5daefe9f4207fa2157.PNG",
+    "static/media/passwordGen.PNG": "/Portfolio/static/media/passwordGen.161715dc659628747c6c.PNG",
+    "static/media/codingQuiz.png": "/Portfolio/static/media/codingQuiz.d4c9133c66885dda84f6.png",
     "static/media/resume.pdf": "/Portfolio/static/media/resume.c82bb3ba13b23fffb505.pdf",
-    "static/media/passwordGen.png": "/Portfolio/static/media/passwordGen.ac6106a48c23e3addbe0.png",
-    "static/media/lyfbro.png": "/Portfolio/static/media/lyfbro.0db279816fdd1420fc63.png",
-    "static/media/noteTaker.png": "/Portfolio/static/media/noteTaker.75017a4fb0a6d69c30d6.png",
-    "static/media/goLogo.png": "/Portfolio/static/media/goLogo.1b713c2c075b4ad19bbf.png",
+    "static/media/gflogo.PNG": "/Portfolio/static/media/gflogo.55369014ee6e0b6bb338.PNG",
     "index.html": "/Portfolio/index.html",
-    "main.3f38ca15.css.map": "/Portfolio/static/css/main.3f38ca15.css.map",
-    "main.79d33e87.js.map": "/Portfolio/static/js/main.79d33e87.js.map"
+    "main.9595e15c.css.map": "/Portfolio/static/css/main.9595e15c.css.map",
+    "main.2378ca71.js.map": "/Portfolio/static/js/main.2378ca71.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f38ca15.css",
-    "static/js/main.79d33e87.js"
+    "static/css/main.9595e15c.css",
+    "static/js/main.2378ca71.js"
   ]
 }
