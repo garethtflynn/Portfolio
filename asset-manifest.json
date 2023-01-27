@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.9595e15c.css",
-    "main.js": "/Portfolio/static/js/main.2378ca71.js",
+    "main.js": "/Portfolio/static/js/main.c7fb2eec.js",
     "static/media/clairCeramics.png": "/Portfolio/static/media/clairCeramics.fd54800fe5ebdad8f0b2.png",
     "static/media/headshotSmall.jpg": "/Portfolio/static/media/headshotSmall.1502e3adadef491a0830.jpg",
     "static/media/socialNetworkAPI.png": "/Portfolio/static/media/socialNetworkAPI.17c0256149212ab8c638.png",
@@ -13,10 +13,10 @@
     "static/media/gflogo.PNG": "/Portfolio/static/media/gflogo.55369014ee6e0b6bb338.PNG",
     "index.html": "/Portfolio/index.html",
     "main.9595e15c.css.map": "/Portfolio/static/css/main.9595e15c.css.map",
-    "main.2378ca71.js.map": "/Portfolio/static/js/main.2378ca71.js.map"
+    "main.c7fb2eec.js.map": "/Portfolio/static/js/main.c7fb2eec.js.map"
   },
   "entrypoints": [
     "static/css/main.9595e15c.css",
-    "static/js/main.2378ca71.js"
+    "static/js/main.c7fb2eec.js"
   ]
 }
