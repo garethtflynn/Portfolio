@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9595e15c.css",
-    "main.js": "/Portfolio/static/js/main.c7fb2eec.js",
+    "main.css": "/Portfolio/static/css/main.8fa21192.css",
+    "main.js": "/Portfolio/static/js/main.8c8a4dc0.js",
     "static/media/clairCeramics.png": "/Portfolio/static/media/clairCeramics.fd54800fe5ebdad8f0b2.png",
     "static/media/headshotSmall.jpg": "/Portfolio/static/media/headshotSmall.1502e3adadef491a0830.jpg",
     "static/media/socialNetworkAPI.png": "/Portfolio/static/media/socialNetworkAPI.17c0256149212ab8c638.png",
@@ -12,11 +12,11 @@
     "static/media/resume.pdf": "/Portfolio/static/media/resume.c82bb3ba13b23fffb505.pdf",
     "static/media/gflogo.PNG": "/Portfolio/static/media/gflogo.55369014ee6e0b6bb338.PNG",
     "index.html": "/Portfolio/index.html",
-    "main.9595e15c.css.map": "/Portfolio/static/css/main.9595e15c.css.map",
-    "main.c7fb2eec.js.map": "/Portfolio/static/js/main.c7fb2eec.js.map"
+    "main.8fa21192.css.map": "/Portfolio/static/css/main.8fa21192.css.map",
+    "main.8c8a4dc0.js.map": "/Portfolio/static/js/main.8c8a4dc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.9595e15c.css",
-    "static/js/main.c7fb2eec.js"
+    "static/css/main.8fa21192.css",
+    "static/js/main.8c8a4dc0.js"
   ]
 }
