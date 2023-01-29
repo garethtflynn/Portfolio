@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -6,13 +7,15 @@ function Home() {
   return (
     <div class='bg-black w-full h-screen flex flex-col justify-center items-center'>
       <div>
-        <h1 class='text-amber-50 text-7xl'>Gareth Flynn</h1>
+        <h1 class='text-amber-50 text-6xl	md:text-7xl'>Gareth Flynn</h1>
       </div>
       <div class='mt-5'>
         <p class='text-amber-50 text-2xl'>Web Developer</p>  
       </div>
       <div class='mt-5'>
-        <a href='/portfolio/work' class='text-amber-50 hover:opacity-50 text-xl'>Enter Site</a>
+       <Link to='/work'>
+         <p class='text-amber-50 hover:opacity-50 text-xl'>Enter Site</p>
+       </Link>
       </div>
     </div>
   );
