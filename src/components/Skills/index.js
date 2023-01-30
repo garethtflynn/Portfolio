@@ -13,7 +13,7 @@ import ResumePdf from "../../assets/resume.pdf";
 
 function Skills() {
   return (
-    <div class='bg-black w-full h-fit '>
+    <div class='bg-black w-full h-fit pt-16'>
       <div class="flex justify-center pb-12">
         <p class="text-amber-50 underline underline-offset-4 text-3xl">
           Skills
