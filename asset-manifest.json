@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c861ddc3.css",
-    "main.js": "/Portfolio/static/js/main.5c8ed683.js",
-    "static/media/clairCeramics.png": "/Portfolio/static/media/clairCeramics.fd54800fe5ebdad8f0b2.png",
-    "static/media/headshotSmall.jpg": "/Portfolio/static/media/headshotSmall.1502e3adadef491a0830.jpg",
-    "static/media/socialNetworkAPI.png": "/Portfolio/static/media/socialNetworkAPI.17c0256149212ab8c638.png",
-    "static/media/weatherDash.png": "/Portfolio/static/media/weatherDash.752715f4388662d577d3.png",
-    "static/media/lyfbroApp.PNG": "/Portfolio/static/media/lyfbroApp.af5daefe9f4207fa2157.PNG",
-    "static/media/passwordGen.PNG": "/Portfolio/static/media/passwordGen.161715dc659628747c6c.PNG",
-    "static/media/codingQuiz.png": "/Portfolio/static/media/codingQuiz.d4c9133c66885dda84f6.png",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.c82bb3ba13b23fffb505.pdf",
-    "static/media/gflogo.PNG": "/Portfolio/static/media/gflogo.55369014ee6e0b6bb338.PNG",
-    "index.html": "/Portfolio/index.html",
-    "main.c861ddc3.css.map": "/Portfolio/static/css/main.c861ddc3.css.map",
-    "main.5c8ed683.js.map": "/Portfolio/static/js/main.5c8ed683.js.map"
+    "main.css": "/static/css/main.c861ddc3.css",
+    "main.js": "/static/js/main.f4086074.js",
+    "static/media/clairCeramics.png": "/static/media/clairCeramics.fd54800fe5ebdad8f0b2.png",
+    "static/media/headshotSmall.jpg": "/static/media/headshotSmall.1502e3adadef491a0830.jpg",
+    "static/media/socialNetworkAPI.png": "/static/media/socialNetworkAPI.17c0256149212ab8c638.png",
+    "static/media/weatherDash.png": "/static/media/weatherDash.752715f4388662d577d3.png",
+    "static/media/lyfbroApp.PNG": "/static/media/lyfbroApp.af5daefe9f4207fa2157.PNG",
+    "static/media/passwordGen.PNG": "/static/media/passwordGen.161715dc659628747c6c.PNG",
+    "static/media/codingQuiz.png": "/static/media/codingQuiz.d4c9133c66885dda84f6.png",
+    "static/media/resume.pdf": "/static/media/resume.c82bb3ba13b23fffb505.pdf",
+    "static/media/gflogo.PNG": "/static/media/gflogo.55369014ee6e0b6bb338.PNG",
+    "index.html": "/index.html",
+    "main.c861ddc3.css.map": "/static/css/main.c861ddc3.css.map",
+    "main.f4086074.js.map": "/static/js/main.f4086074.js.map"
   },
   "entrypoints": [
     "static/css/main.c861ddc3.css",
-    "static/js/main.5c8ed683.js"
+    "static/js/main.f4086074.js"
   ]
 }
