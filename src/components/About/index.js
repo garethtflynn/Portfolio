@@ -12,7 +12,7 @@ function About() {
       <div class="w-full md:pt-16 flex flex-col justify-center items-center lg:flex-row lg:pl-10 lg:justify-center lg:items-center">
         <img src={headShot} alt="headshot" class="w-64 md:w-96"></img>
         <p class="p-5 pt-12 px-10 w-screen text-amber-50 italic">
-          Whats up! As you might already know, I`m Gareth. Im an adaptable
+          Whats up! As you might already know, I`m Gareth. I`m an adaptable
           Full-Stack Web Developer with degrees in psychology and communication.
           Recently earned a certificate in full stack development from the
           Georgia Institute of Technology gaining skills in Javascript, CSS,

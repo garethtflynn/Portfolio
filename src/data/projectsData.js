@@ -24,7 +24,7 @@ export const projectsData = [
         github: 'https://github.com/garethtflynn/WeatherDashboard',
         alt: 'weather-dashboard',
         icons: [<FaHtml5 size="3rem" />, <FaJs size="3rem" />, <SiTailwindcss size="3rem" />, <FaArrowsAltH size="3rem"/>],
-        description: "Do you check the weather constantly? This mobile-first designed apllication allows users to search cities and destinations' weather in current and five day format."
+        description: "Do you check the weather constantly? This mobile-first designed application allows users to search cities and destinations' weather in current and five day format."
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ export const projectsData = [
         github: 'https://github.com/garethtflynn/Lyfbro-App',
         alt: 'lyfbro-app',
         icons: [<SiTailwindcss size='3rem'/>, <DiMysql size='3rem'/>, <DiNodejs size='3rem'/>, <FaJs size='3rem'/>, <FaHtml5 size='3rem'/>, <SiHandlebarsdotjs size='3rem'/>,],
-        description: 'Lyfbro is a web application aimed at helping a user track activities to monitor health progress. The app provides a "gamified" way to inspire a healthy lifestyle. This repository is a mirror of'
+        description: 'Lyfbro is a web application aimed at helping a user track activities to monitor health progress. The app provides a "gamified" way to inspire a healthy lifestyle.'
     },
     {
         id: 2,
@@ -64,7 +64,7 @@ export const projectsData = [
         github: 'https://github.com/garethtflynn/JavaScriptQuiz',
         alt: 'coding-quiz',
         icons: [<FaJs size="3rem" />, <FaHtml5 size="3rem" />, <FaCss3Alt size="3rem" />],
-        description: "This application's purpose is to test the users knowledge of JavaScript and other coding topics."
+        description: "This application's purpose is to test the user's knowledge of JavaScript and other coding topics."
     },
     {
         id: 4,
@@ -74,6 +74,6 @@ export const projectsData = [
         github: 'https://github.com/garethtflynn/PassWordGenerator',
         alt: 'password-generator',
         icons: [ <FaJs size="3rem" />, <FaCss3Alt size="3rem" />, <FaHtml5 size="3rem" />],
-        description: 'This application is designed to give users the ability to create their own secure passwords based off of their prefernces.'
+        description: 'This application is designed to give users the ability to create their own secure passwords based on their preferences.'
     },
 ]
