@@ -9,7 +9,7 @@ import {
 import { DiResponsive, DiNodejs, DiMongodb, DiMysql } from "react-icons/di";
 import { SiTailwindcss, SiInsomnia } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
-import ResumePdf from "../../assets/resume.pdf";
+import resume from "../../assets/resume.pdf";
 
 function Skills() {
   return (
@@ -73,12 +73,11 @@ function Skills() {
       </div>
       <div class="flex justify-center p-10">
         <button
-          href={ResumePdf}
           target="blank"
           type="submit"
           class="bg-amber-50 hover:opacity-75 text-black font-bold py-2 px-4 items-center hover:scale-105 duration-150"
         >
-          <a href={ResumePdf} download="garethFlynnResume.pdf">
+          <a href={resume} target="_blank" rel="noreferrer">
             <span>Download Resume</span>
           </a>
         </button>
