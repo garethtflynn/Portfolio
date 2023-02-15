@@ -8,7 +8,7 @@ function Navagation() {
     <div name="navbar" class="fixed w-screen">
       <Navbar fluid={true} rounded={false} class="bg-black">
         <Navbar.Brand>
-          <a href="/Portfolio">
+          <a href="/">
             <img
               src={logo}
               className="cursor-pointer"
