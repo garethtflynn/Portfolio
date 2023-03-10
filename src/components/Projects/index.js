@@ -33,7 +33,7 @@ const Projects = ({ props }) => {
               </div>
             </div>
             <div class='flex justify-center sm:p-5'>
-              <img src={project.image} width="350" alt={project.alt}></img>
+              <img src={project.image} width={project.size} alt={project.alt}></img>
             </div>
           </div>
         );

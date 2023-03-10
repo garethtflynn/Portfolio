@@ -21,53 +21,53 @@ function Skills() {
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-y-20 p-12 text-amber-50 w-full text-center">
         <div>
-          <FaHtml5 size="4rem"></FaHtml5>
+          <FaHtml5 size="4rem" class='hover:scale-125 duration-150'></FaHtml5>
           <p>HTML5</p>
         </div>
         <div>
-          <FaCss3Alt size="4rem"></FaCss3Alt>
+          <FaCss3Alt size="4rem" class='hover:scale-125 duration-150'></FaCss3Alt>
           <p>CSS</p>
         </div>
         <div>
-          <FaJs size="4rem"></FaJs>
+          <FaJs size="4rem" class='hover:scale-125 duration-150'></FaJs>
           <p>Javascript</p>
         </div>
         <div>
-          <FaReact size="4rem"></FaReact>
+          <FaReact size="4rem" class='hover:scale-125 duration-150'></FaReact>
           <p>React</p>
         </div>
         <div>
-          <FaArrowsAltH size="4rem"></FaArrowsAltH>
+          <FaArrowsAltH size="4rem" class='hover:scale-125 duration-150'></FaArrowsAltH>
           <p>REST APIS</p>
         </div>
         <div>
-          <DiResponsive size="4rem"></DiResponsive>
+          <DiResponsive size="4rem" class='hover:scale-125 duration-150'></DiResponsive>
           <p>
             Responsive<br></br>Design
           </p>
         </div>
         <div>
-          <DiNodejs size="4rem"></DiNodejs>
+          <DiNodejs size="4rem" class='hover:scale-125 duration-150'></DiNodejs>
           <p>Node.js</p>
         </div>
         <div>
-          <DiMongodb size="4rem"></DiMongodb>
+          <DiMongodb size="4rem" class='hover:scale-125 duration-150'></DiMongodb>
           <p>Mongodb</p>
         </div>
         <div>
-          <DiMysql size="4rem"></DiMysql>
+          <DiMysql size="4rem" class='hover:scale-125 duration-150'></DiMysql>
           <p>MySQL</p>
         </div>
         <div>
-          <SiTailwindcss size="4rem"></SiTailwindcss>
+          <SiTailwindcss size="4rem" class='hover:scale-125 duration-150'></SiTailwindcss>
           <p>Tailwind</p>
         </div>
         <div>
-          <SiInsomnia size="4rem"></SiInsomnia>
+          <SiInsomnia size="4rem" class='hover:scale-125 duration-150'></SiInsomnia>
           <p>Insomnia</p>
         </div>
         <div>
-          <GrGraphQl size="4rem"></GrGraphQl>
+          <GrGraphQl size="4rem" class='hover:scale-125 duration-150'></GrGraphQl>
           <p>GraphQl</p>
         </div>
       </div>
