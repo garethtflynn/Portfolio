@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.c861ddc3.css",
-    "main.js": "/static/js/main.546af513.js",
-    "static/media/clairCeramics.png": "/static/media/clairCeramics.fd54800fe5ebdad8f0b2.png",
+    "main.js": "/static/js/main.2d953711.js",
+    "static/media/ceramics.png": "/static/media/ceramics.f9a38fc69bb247a79af8.png",
+    "static/media/socialNetwork.png": "/static/media/socialNetwork.aa78b6c878f6e82cd0ed.png",
     "static/media/headshotSmall.jpg": "/static/media/headshotSmall.1502e3adadef491a0830.jpg",
-    "static/media/socialNetworkAPI.png": "/static/media/socialNetworkAPI.17c0256149212ab8c638.png",
-    "static/media/weatherDash.png": "/static/media/weatherDash.752715f4388662d577d3.png",
-    "static/media/lyfbroApp.PNG": "/static/media/lyfbroApp.af5daefe9f4207fa2157.PNG",
-    "static/media/passwordGen.PNG": "/static/media/passwordGen.161715dc659628747c6c.PNG",
-    "static/media/codingQuiz.png": "/static/media/codingQuiz.d4c9133c66885dda84f6.png",
+    "static/media/weather.png": "/static/media/weather.f129efb662e57a7a0ae7.png",
+    "static/media/password.png": "/static/media/password.cbd4592dadccc9327fcb.png",
+    "static/media/lyfbro.png": "/static/media/lyfbro.eec49ffd03670e2e12e8.png",
+    "static/media/quizCoding.png": "/static/media/quizCoding.7494073e3458e8c1fdf0.png",
     "static/media/resume.pdf": "/static/media/resume.20ffa342ca325559c914.pdf",
     "static/media/gflogo.PNG": "/static/media/gflogo.55369014ee6e0b6bb338.PNG",
     "index.html": "/index.html",
     "main.c861ddc3.css.map": "/static/css/main.c861ddc3.css.map",
-    "main.546af513.js.map": "/static/js/main.546af513.js.map"
+    "main.2d953711.js.map": "/static/js/main.2d953711.js.map"
   },
   "entrypoints": [
     "static/css/main.c861ddc3.css",
-    "static/js/main.546af513.js"
+    "static/js/main.2d953711.js"
   ]
 }
