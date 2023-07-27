@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c861ddc3.css",
-    "main.js": "/static/js/main.9cb75f4b.js",
+    "main.js": "/static/js/main.2318c9db.js",
     "static/media/ceramics.png": "/static/media/ceramics.f9a38fc69bb247a79af8.png",
     "static/media/socialNetwork.png": "/static/media/socialNetwork.aa78b6c878f6e82cd0ed.png",
     "static/media/headshotSmall.jpg": "/static/media/headshotSmall.1502e3adadef491a0830.jpg",
@@ -9,14 +9,14 @@
     "static/media/password.png": "/static/media/password.cbd4592dadccc9327fcb.png",
     "static/media/lyfbro.png": "/static/media/lyfbro.eec49ffd03670e2e12e8.png",
     "static/media/quizCoding.png": "/static/media/quizCoding.7494073e3458e8c1fdf0.png",
-    "static/media/resume.pdf": "/static/media/resume.5ddaa7a14054471eb1f5.pdf",
+    "static/media/portfolioResume.pdf": "/static/media/portfolioResume.3614351a126460c8caaf.pdf",
     "static/media/gflogo.PNG": "/static/media/gflogo.55369014ee6e0b6bb338.PNG",
     "index.html": "/index.html",
     "main.c861ddc3.css.map": "/static/css/main.c861ddc3.css.map",
-    "main.9cb75f4b.js.map": "/static/js/main.9cb75f4b.js.map"
+    "main.2318c9db.js.map": "/static/js/main.2318c9db.js.map"
   },
   "entrypoints": [
     "static/css/main.c861ddc3.css",
-    "static/js/main.9cb75f4b.js"
+    "static/js/main.2318c9db.js"
   ]
 }
