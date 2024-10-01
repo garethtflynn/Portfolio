@@ -9,7 +9,7 @@ import {
 import { DiResponsive, DiNodejs, DiMongodb, DiMysql } from "react-icons/di";
 import { SiTailwindcss, SiInsomnia } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
-import resume from "../../assets/portfolioResume.pdf"
+import resume from "../../assets/resume.pdf"
 
 function Skills() {
   return (

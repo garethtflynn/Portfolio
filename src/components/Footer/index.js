@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaStackOverflow, FaInstagramSquare } from "react-icons/fa";
 
 function Footer() {
+  const footerYear = new Date().getFullYear();
   return (
     <div>
       <footer className="bg-black h-10 w-full">
@@ -45,7 +46,7 @@ function Footer() {
         </ul>
         <div class='bg-black flex justify-center py-3'>
         <p class=' text-amber-50 text-xs'>
-        © 2022 Gareth Flynn. All rights reserved.
+        © {footerYear} Gareth Flynn. All rights reserved.
         </p>
         </div>
       </footer>
