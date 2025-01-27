@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c861ddc3.css",
-    "main.js": "/static/js/main.2fd56fbd.js",
-    "static/media/ceramics.png": "/static/media/ceramics.f9a38fc69bb247a79af8.png",
-    "static/media/socialNetwork.png": "/static/media/socialNetwork.aa78b6c878f6e82cd0ed.png",
+    "main.css": "/static/css/main.18e404ba.css",
+    "main.js": "/static/js/main.5cfff25c.js",
+    "static/media/ceramicsStore.PNG": "/static/media/ceramicsStore.de530db455636460e666.PNG",
     "static/media/headshotSmall.jpg": "/static/media/headshotSmall.1502e3adadef491a0830.jpg",
-    "static/media/weather.png": "/static/media/weather.f129efb662e57a7a0ae7.png",
-    "static/media/password.png": "/static/media/password.cbd4592dadccc9327fcb.png",
-    "static/media/lyfbro.png": "/static/media/lyfbro.eec49ffd03670e2e12e8.png",
-    "static/media/quizCoding.png": "/static/media/quizCoding.7494073e3458e8c1fdf0.png",
-    "static/media/resume.pdf": "/static/media/resume.4c011e824c42caaff1f5.pdf",
+    "static/media/rcmndMobile.PNG": "/static/media/rcmndMobile.6b5efd96d29e3d66663b.PNG",
+    "static/media/lyfbroMobile.PNG": "/static/media/lyfbroMobile.a7aa23d353c6a7d34e2b.PNG",
+    "static/media/resume.pdf": "/static/media/resume.4bb8b5c43d0fc903d6e9.pdf",
     "static/media/gflogo.PNG": "/static/media/gflogo.55369014ee6e0b6bb338.PNG",
     "index.html": "/index.html",
-    "main.c861ddc3.css.map": "/static/css/main.c861ddc3.css.map",
-    "main.2fd56fbd.js.map": "/static/js/main.2fd56fbd.js.map"
+    "main.18e404ba.css.map": "/static/css/main.18e404ba.css.map",
+    "main.5cfff25c.js.map": "/static/js/main.5cfff25c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c861ddc3.css",
-    "static/js/main.2fd56fbd.js"
+    "static/css/main.18e404ba.css",
+    "static/js/main.5cfff25c.js"
   ]
 }
