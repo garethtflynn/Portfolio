@@ -21,7 +21,7 @@ function Navagation() {
         <Navbar.Collapse>
         <ul class='flex flex-col items-end sm:pr-6 md:flex-row md:pr-6 md:gap-10 text-lg'>
          <li class='pl-6'>
-          <Navbar.Link class="hover:opacity-50 text-amber-50">
+          <Navbar.Link class="hover:opacity-50 text-[#fef2f2]">
             <Link
               to="greeting"
               spy={true}
@@ -34,7 +34,7 @@ function Navagation() {
           </Navbar.Link>
           </li>
           <li class=''>  
-          <Navbar.Link class="hover:opacity-50 text-amber-50">
+          <Navbar.Link class="hover:opacity-50 text-[#fef2f2]">
             <Link
               to="about"
               spy={true}
@@ -48,7 +48,7 @@ function Navagation() {
           </Navbar.Link>
           </li>
           <li class=''>
-          <Navbar.Link class="hover:opacity-50 text-amber-50">
+          <Navbar.Link class="hover:opacity-50 text-[#fef2f2]">
             <Link
               to="portfolio"
               spy={true}
@@ -62,7 +62,7 @@ function Navagation() {
           </Navbar.Link>
           </li>
           <li class=''>
-          <Navbar.Link class="hover:opacity-50 text-amber-50">
+          <Navbar.Link class="hover:opacity-50 text-[#fef2f2]">
             <Link
               to="contact"
               spy={true}

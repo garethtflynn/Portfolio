@@ -45,7 +45,7 @@ function Footer() {
           </li>
         </ul>
         <div class='bg-black flex justify-center py-3'>
-        <p class=' text-amber-50 text-xs'>
+        <p class=' text-[#fef2f2] text-xs'>
         © {footerYear} Gareth Flynn. All rights reserved.
         </p>
         </div>

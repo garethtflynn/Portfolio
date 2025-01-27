@@ -74,7 +74,7 @@ function Contact() {
   return (
     <div name="contact" class="bg-black w-full h-screen	 p-5">
       <div class="flex justify-center pb-12">
-        <p class="text-amber-50 text-3xl underline underline-offset-4">
+        <p class="text-[#fef2f2] text-3xl underline underline-offset-4">
           Contact Me
         </p>
       </div>
@@ -87,10 +87,10 @@ function Contact() {
             placeholder="name"
             value={userName}
             sizing="md"
-            class="w-10/12 mt-5 bg-amber-50"
+            class="w-10/12 mt-5 bg-[#fef2f2]"
             onChange={handleInput}
           />
-          <div class="text-amber-50 mt-1">
+          <div class="text-[#fef2f2] mt-1">
             <p>{userErrMessage}</p>
           </div>
           <div>
@@ -101,11 +101,11 @@ function Contact() {
               placeholder="email"
               value={userEmail}
               sizing="md"
-              class="w-10/12 mt-5 bg-amber-50"
+              class="w-10/12 mt-5 bg-[#fef2f2]"
               onChange={handleInput}
             />
           </div>
-          <div class="text-amber-50 mt-1">
+          <div class="text-[#fef2f2] mt-1">
             <p>{emailErrMessage}</p>
           </div>
           <div>
@@ -117,14 +117,14 @@ function Contact() {
               placeholder="message"
               value={userMessage}
               class="w-10/12 h-64
-            mt-5 bg-amber-50"
+            mt-5 bg-[#fef2f2]"
               onChange={handleInput}
             />
           </div>
-          <div class="text-amber-50">
+          <div class="text-[#fef2f2]">
             <p>{errorMessage}</p>
           </div>
-          <div class="text-amber-50 mt-1">
+          <div class="text-[#fef2f2] mt-1">
             <p>{successMessage}</p>
           </div>
           <div class="mt-3">
@@ -132,13 +132,13 @@ function Contact() {
               onClick={handleSubmit}
               target="blank"
               type="submit"
-              class="hover:scale-105 duration-150 bg-amber-50 hover:opacity-75 text-black font-bold py-2 px-4 items-center"
+              class="hover:scale-105 duration-150 bg-[#fef2f2] hover:opacity-75 text-black font-bold py-2 px-4 items-center"
             >
               <span>Get In Touch!</span>
             </button>
           </div>
         </form>
-        <div class="text-amber-50">
+        <div class="text-[#fef2f2]">
           <br></br>
           <p>
             If you have any questions about myself or my projects, please feel
@@ -157,7 +157,7 @@ function Contact() {
           </a>
         </div>
       </div>
-      <div class="bg-black w-full flex justify-center items-center text-amber-50 pt-48">
+      <div class="bg-black w-full flex justify-center items-center text-[#fef2f2] pt-48">
         <Link to="greeting" spy={true} smooth={true} duration={500} className='cursor-pointer hover:opacity-50'>
           Back To Top
         </Link>
