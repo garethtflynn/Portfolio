@@ -13,7 +13,7 @@ import resume from "../../assets/resume.pdf";
 
 function Skills() {
   return (
-    <div class="bg-black w-full h-fit pt-16">
+    <div name="skills" class="bg-black w-full h-screen">
       <div class="flex justify-center pb-12">
         <p class="text-[#fef2f2] underline underline-offset-4 text-3xl">
           Skills
@@ -21,78 +21,53 @@ function Skills() {
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-y-20 p-12 text-[#fef2f2] w-full text-center">
         <div>
-          <FaReact size="4rem" class="hover:scale-125 duration-150"/>
+          <FaReact size="4rem" class="hover:scale-125 duration-150" />
           <p>React</p>
         </div>
         <div>
           <SiNextdotjs size="4rem" class="hover:scale-125 duration-150" />
           <p>Next.js</p>
         </div>
-        {/* <div>
-          <FaHtml5 size="4rem" class="hover:scale-125 duration-150"/>
-          <p>HTML5</p>
-        </div> */}
         <div>
-          <FaCss3Alt
-            size="4rem"
-            class="hover:scale-125 duration-150"
-          />
+          <FaCss3Alt size="4rem" class="hover:scale-125 duration-150" />
           <p>CSS</p>
         </div>
         <div>
-          <FaJs size="4rem" class="hover:scale-125 duration-150"/>
+          <FaJs size="4rem" class="hover:scale-125 duration-150" />
           <p>Javascript</p>
         </div>
         <div>
-          <FaArrowsAltH
-            size="4rem"
-            class="hover:scale-125 duration-150"
-          />
+          <FaArrowsAltH size="4rem" class="hover:scale-125 duration-150" />
           <p>REST APIS</p>
         </div>
         <div>
-          <DiResponsive
-            size="4rem"
-            class="hover:scale-125 duration-150"
-          />
+          <DiResponsive size="4rem" class="hover:scale-125 duration-150" />
           <p>
             Responsive<br></br>Design
           </p>
         </div>
         <div>
-          <DiNodejs size="4rem" class="hover:scale-125 duration-150"/>
+          <DiNodejs size="4rem" class="hover:scale-125 duration-150" />
           <p>Node.js</p>
         </div>
         <div>
-          <DiMongodb
-            size="4rem"
-            class="hover:scale-125 duration-150"
-          />
+          <DiMongodb size="4rem" class="hover:scale-125 duration-150" />
           <p>Mongodb</p>
         </div>
         <div>
-          <DiMysql size="4rem" class="hover:scale-125 duration-150"/>
+          <DiMysql size="4rem" class="hover:scale-125 duration-150" />
           <p>MySQL</p>
         </div>
         <div>
-          <SiTailwindcss
-            size="4rem"
-            class="hover:scale-125 duration-150"
-          />
+          <SiTailwindcss size="4rem" class="hover:scale-125 duration-150" />
           <p>Tailwind</p>
         </div>
         <div>
-          <SiInsomnia
-            size="4rem"
-            class="hover:scale-125 duration-150"
-          />
+          <SiInsomnia size="4rem" class="hover:scale-125 duration-150" />
           <p>Insomnia</p>
         </div>
         <div>
-          <GrGraphQl
-            size="4rem"
-            class="hover:scale-125 duration-150"
-          />
+          <GrGraphQl size="4rem" class="hover:scale-125 duration-150" />
           <p>GraphQl</p>
         </div>
       </div>

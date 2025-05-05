@@ -72,7 +72,7 @@ function Contact() {
   };
 
   return (
-    <div name="contact" class="bg-black w-full h-screen	 p-5">
+    <div name="contact" class="bg-black w-full h-fit	 p-5">
       <div class="flex justify-center pb-12">
         <p class="text-[#fef2f2] text-3xl underline underline-offset-4">
           Contact Me

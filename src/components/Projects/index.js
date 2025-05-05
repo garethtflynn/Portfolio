@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = ({ props }) => {
   return (
-    <div class="text-[#fef2f2]">
+    <div class="text-[#fef2f2]" >
       {props.map((project, id) => {
         return (
           <div class='grid sm:grid-cols-1 md:grid-cols-2 pb-32'>

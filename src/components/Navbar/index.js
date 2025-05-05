@@ -47,6 +47,20 @@ function Navagation() {
             </Link>
           </Navbar.Link>
           </li>
+          <li class=''>  
+          <Navbar.Link class="hover:opacity-50 text-[#fef2f2]">
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-110}
+              className="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
+            >
+              Skills
+            </Link>
+          </Navbar.Link>
+          </li>
           <li class=''>
           <Navbar.Link class="hover:opacity-50 text-[#fef2f2]">
             <Link
