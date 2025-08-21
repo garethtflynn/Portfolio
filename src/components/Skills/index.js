@@ -13,13 +13,16 @@ import resume from "../../assets/resume.pdf";
 
 function Skills() {
   return (
-    <div name="skills" class="bg-black w-full h-screen">
+    <div
+      name="skills"
+      class="bg-black w-full min-h-screen flex flex-col justify-center items-center"
+    >
       <div class="flex justify-center pb-12">
         <p class="text-[#fef2f2] underline underline-offset-4 text-3xl">
           Skills
         </p>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-y-20 p-12 text-[#fef2f2] w-full text-center">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-y-20 p-12 text-[#fef2f2] w-full text-center mx-auto">
         <div>
           <FaReact size="4rem" class="hover:scale-125 duration-150" />
           <p>React</p>
@@ -75,7 +78,7 @@ function Skills() {
         <button
           target="blank"
           type="submit"
-          class="bg-[#fef2f2] hover:opacity-75 text-black font-bold py-2 px-4 items-center hover:scale-105 duration-150"
+          class="bg-[#fef2f2] hover:opacity-75 text-black font-bold py-2 px-4 items-center hover:scale-105 duration-150 rounded"
         >
           <a href={resume} target="_blank" rel="noreferrer">
             <span>Download Resume</span>

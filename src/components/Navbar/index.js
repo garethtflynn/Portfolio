@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 function Navagation() {
   return (
     <div name="navbar" class="fixed w-screen">
-      <Navbar fluid={true} rounded={false} class="bg-black">
+      <Navbar fluid={true} rounded={false} class="sm:bg-transparent md:bg-black">
         <Navbar.Brand>
           <a href="/">
             <img
@@ -30,20 +30,6 @@ function Navagation() {
               className="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
             >
               Home
-            </Link>
-          </Navbar.Link>
-          </li>
-          <li class=''>  
-          <Navbar.Link class="hover:opacity-50 text-[#fef2f2]">
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-110}
-              className="cursor-pointer hover:underline hover:underline-offset-4 decoration-2"
-            >
-              About
             </Link>
           </Navbar.Link>
           </li>

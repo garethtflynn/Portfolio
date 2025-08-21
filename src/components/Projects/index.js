@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = ({ props }) => {
   return (
-    <div class="text-[#fef2f2]" >
+    <div class="text-[#fef2f2] min-h-screen flex flex-col">
       {props.map((project, id) => {
         return (
           <div class='grid sm:grid-cols-1 md:grid-cols-2 pb-32'>
@@ -32,7 +32,7 @@ const Projects = ({ props }) => {
                 </div>
               </div>
             </div>
-            <div class='flex justify-center sm:p-5'>
+            <div class='flex justify-center md:justify-end sm:p-5'>
               <img src={project.image} width={project.size} alt={project.alt}></img>
             </div>
           </div>
