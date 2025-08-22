@@ -43,7 +43,7 @@ export const projectsData = [
     id: 2,
     name: "Start or Sit",
     image: startOrSit,
-    url: "https://start-or-sit-yqm2.vercel.app/",
+    url: "https://start-or-sit.vercel.app/",
     github: "https://github.com/garethtflynn/startOrSit",
     size: "200",
     alt: "start or sit app",
