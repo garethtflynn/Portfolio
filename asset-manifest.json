@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b75ed20.css",
-    "main.js": "/static/js/main.2472c765.js",
+    "main.css": "/static/css/main.8f393472.css",
+    "main.js": "/static/js/main.8a6591df.js",
     "static/media/rcmnd.PNG": "/static/media/rcmnd.688dbd995e291d92c2a0.PNG",
     "static/media/claireseCeramics.PNG": "/static/media/claireseCeramics.23f0464a4a3eaa92d2d1.PNG",
     "static/media/headshotSmall.jpg": "/static/media/headshotSmall.1502e3adadef491a0830.jpg",
     "static/media/lyfbroMobile.PNG": "/static/media/lyfbroMobile.a7aa23d353c6a7d34e2b.PNG",
     "static/media/startOrSit.PNG": "/static/media/startOrSit.9df39c36407589e1e43c.PNG",
     "static/media/resume.pdf": "/static/media/resume.ef58395295145bbbf2ba.pdf",
-    "static/media/gflogo.PNG": "/static/media/gflogo.55369014ee6e0b6bb338.PNG",
     "index.html": "/index.html",
-    "main.4b75ed20.css.map": "/static/css/main.4b75ed20.css.map",
-    "main.2472c765.js.map": "/static/js/main.2472c765.js.map"
+    "main.8f393472.css.map": "/static/css/main.8f393472.css.map",
+    "main.8a6591df.js.map": "/static/js/main.8a6591df.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b75ed20.css",
-    "static/js/main.2472c765.js"
+    "static/css/main.8f393472.css",
+    "static/js/main.8a6591df.js"
   ]
 }
